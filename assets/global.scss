@@ -1,0 +1,23 @@
+// fonts
+
+@import url('https://rsms.me/inter/inter.css');
+
+// tailwind
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// global
+
+a {
+  @apply text-blue-500 duration-200 transition-all;
+
+  &:hover {
+    @apply text-blue-600;
+  }
+
+  &:active {
+    @apply text-blue-400;
+  }
+}
