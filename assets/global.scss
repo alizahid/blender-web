@@ -11,13 +11,13 @@
 // global
 
 a {
-  @apply text-blue-500 duration-200 transition-all;
+  @apply text-primary duration-200 transition-all;
 
   &:hover {
-    @apply text-blue-600;
+    @apply text-primary;
   }
 
   &:active {
-    @apply text-blue-400;
+    @apply text-primary;
   }
 }

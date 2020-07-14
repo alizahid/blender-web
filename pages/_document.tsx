@@ -7,7 +7,7 @@ class Doc extends Document {
       <html>
         <Head />
 
-        <body>
+        <body className="cursor-default">
           <Main />
           <NextScript />
         </body>
